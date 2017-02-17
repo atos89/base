@@ -1,19 +1,18 @@
 {
-  "name": "base",
+  "name": "etude01",
   "version": "1.0.0",
-  "description": "",
+  "description": "## index",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/atos89/base.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/atos89/base/issues"
-  },
-  "homepage": "https://github.com/atos89/base#readme"
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-stylus": "^2.6.0",
+    "require-dir": "^0.3.1",
+    "run-sequence": "^1.2.2"
+  }
 }
