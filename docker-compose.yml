@@ -1,10 +1,10 @@
 ansible:
   build: ./
-  container_name: ansible
-  hostname: ansible
+  container_name: base
+  hostname: base
   ports:
     - 80:80
   volumes:
-    - /c/Users/atos/develop/etude01/var/www/html:/var/www/html
+    - /c/Users/atos/develop/base/httpdocs:/var/www/html
     - /c/Users/atos/develop/etude01:/home
   tty: true
