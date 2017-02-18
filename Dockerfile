@@ -56,6 +56,8 @@ RUN \
 #
 COPY root/init.sh /root/
 
+WORKDIR /home
+
 ENTRYPOINT \
     /etc/init.d/httpd start && \
     /bin/sh /root/init.sh && \
