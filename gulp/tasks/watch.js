@@ -2,6 +2,6 @@
 
 const gulp = require('gulp');
 
-gulp.task('serve', (callback) => {
+gulp.task('watch', (callback) => {
     console.log('called.');
 });
