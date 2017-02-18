@@ -1,0 +1,46 @@
+body, h1, h2, h3, h4, h5、h6 {
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.content-l {
+  width: 80%;
+  float: left;
+}
+.content-r {
+  width: 20%;
+  margin-top: 15px;
+  float: left;
+}
+.article-item {
+  float: left;
+  width: 200px;
+  margin: 15px 21.675px;
+  border: solid 1px;
+}
+.article-item:nth-child(4n+1) {
+  clear: both;
+  margin-left: 0;
+}
+.side-bar {
+
+}
+.side-bar__head {
+  border: solid 1px;
+}
+.img {
+  width: 100%;
+  height: auto;
+}
+.img-box {
+  margin: 5px;
+}
+.cfx {
+  clear: left;
+  content: ' ';
+}
