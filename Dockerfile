@@ -39,7 +39,6 @@ RUN \
     mkdir -p /var/log/php
 
 COPY etc/php.ini /etc/
-COPY var/www/html/index.php /var/www/html/
 
 ### Application Framework
 #
