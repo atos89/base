@@ -6,5 +6,5 @@ ansible:
     - 80:80
   volumes:
     - /c/Users/atos/develop/base/httpdocs:/var/www/html
-    - /c/Users/atos/develop/etude01:/home
+    - /c/Users/atos/develop/base:/home
   tty: true
