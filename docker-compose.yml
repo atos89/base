@@ -1,5 +1,5 @@
-ansible:
-  build: ./
+base:
+  build: .
   container_name: base
   hostname: base
   ports:
